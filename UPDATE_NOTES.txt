@@ -1,1 +1,5 @@
-Support form fix. Replace only index.html in the website repository. FormSubmit opens in a new tab and may require mailbox activation/CAPTCHA. Backup button opens a prefilled email in the visitor email app (user must click Send). No automatic delivery is claimed. Other website content preserved.
+Replace only index.html in the GitHub Pages website repository.
+The support form submits asynchronously to FormSubmit AJAX, without opening an email application or new tab.
+FormSubmit requires one-time recipient activation via support@signmaster360.co.za. Delivery must be tested live after activation.
+The form displays a success message only after a positive service response; failures display an error.
+Rollback: restore previous index.html from GitHub history.
