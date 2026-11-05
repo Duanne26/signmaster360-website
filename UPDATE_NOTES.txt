@@ -1,0 +1,7 @@
+SignMaster 360 public website update — November 2026
+
+Modified: index.html only. Original logo, CNAME, and existing links preserved.
+Added six-slide interactive carousel, 12 expanded feature cards, voice-recording roadmap showcase, responsive layout and accessibility controls.
+Voice recording and transcription are clearly identified as planned, not live.
+Deploy: upload index.html to the root of your existing GitHub Pages website repository, replacing only that file.
+Rollback: restore index.html from the previous GitHub commit.
