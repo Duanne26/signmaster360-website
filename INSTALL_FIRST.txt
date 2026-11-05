@@ -1,0 +1,12 @@
+SignMaster 360 support form patch - TWO repositories.
+
+1. In the SignPilot application repository, replace app.py and add sm360_public_support.py in repository root. Deploy Render and wait for healthy status.
+2. In signmaster360-website repository, replace index.html in root. Wait for GitHub Pages deployment.
+3. Submit a test support request from https://signmaster360.co.za and confirm arrival in support@signmaster360.co.za.
+
+Uses existing RESEND_API_KEY and RESEND_FROM_EMAIL on Render. No API keys in website.
+Uses existing app URL https://signpilot-bwqx.onrender.com, matching the current website login URL.
+No changes to database, tenant records, DNS, email MX, billing, or vehicle catalogue.
+If Render fails, revert app.py to prior GitHub commit and delete new module. If website fails, revert index.html.
+Rate limit is 5 requests per hour per application instance IP; for production scale use a shared rate limiter and CAPTCHA.
+Validated Python compilation and embedded JavaScript syntax, but NOT live deployed email delivery.
