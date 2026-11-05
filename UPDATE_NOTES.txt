@@ -1,1 +1,9 @@
-SignMaster 360 support contact update. Replace index.html in the existing website repository. Adds a Contact Support navigation link and section, with clickable support@signmaster360.co.za email link. This does not create or configure the actual email mailbox. Preserve the existing assets and other files. Roll back by restoring the previous index.html from GitHub history.
+SignMaster 360 - Contact Form Update
+
+Replace ONLY index.html in the existing signmaster360-website repository.
+
+Contact Support button now scrolls to a form collecting name, email, optional phone, topic and message. Form posts to FormSubmit.co for delivery to support@signmaster360.co.za.
+
+IMPORTANT: FormSubmit requires a one-time confirmation email to activate the address before form messages can be delivered. Submit a test message, open the activation email in support@signmaster360.co.za, confirm it, then test again. FormSubmit is a third-party service.
+
+Rollback: restore previous index.html using GitHub file history.
