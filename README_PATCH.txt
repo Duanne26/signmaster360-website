@@ -1,11 +1,13 @@
-SIGNMASTER 360 — WEBSITE AUTOMATION FEATURE PATCH
+SIGNMASTER 360 — WEBSITE-ONLY PRODUCTION INTERFACE PATCH
 
-Website-only update. Does not modify the application or backend.
+This ZIP contains ONLY the modified index.html from the supplied website archive.
+No application files, backend, pricing, authentication, legal pages or assets are replaced.
 
-Upload index.html to the public website repository root. Keep the included assets/signmaster360-workshop-showcase.webp in the assets folder.
+Install:
+1. Back up the existing website index.html in your website repository.
+2. Replace ONLY index.html with the included index.html.
+3. Commit and deploy your public website.
+4. Hard refresh and open the Production Command Centre section.
 
-Adds a prominent automatic stock deduction section, reservation/printing flow and other workflow automation highlights. Existing workshop image, navigation and other sections are preserved.
-
-After deployment, visit signmaster360.co.za/#automation and hard-refresh.
-
-Do not deploy to app.signmaster360.co.za.
+The Mark job as done button is a LOCAL WEBSITE DEMO only. It does not update jobs, stock, or notify real sales reps.
+Actual in-app sales rep notification delivery must be verified or implemented in the app separately.
