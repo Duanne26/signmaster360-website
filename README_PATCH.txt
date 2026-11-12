@@ -1,5 +1,1 @@
-SignMaster 360 premium website redesign patch ONLY.
-Replace index.html in your PUBLIC WEBSITE repository.
-Keep existing assets, app.py, and other files unchanged.
-Back up current index.html first.
-Production-to-sales notification remains a demo until confirmed in the app.
+SignMaster 360 public website ONLY. Back up current index.html and replace it with this file in the public website repository. Existing image assets must remain, including assets/signmaster360-workshop-showcase.webp. Adds a 4-slide autoplay carousel (pause, arrows, dots) while retaining the existing 6-slide feature slideshow and all other sections. Does not change the app/backend. Job-ready notifications remain a website demonstration pending live verification.
