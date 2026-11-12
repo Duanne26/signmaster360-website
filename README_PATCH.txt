@@ -1,9 +1,13 @@
-SignMaster 360 public website features-only patch
+SIGNMASTER 360 — WEBSITE IMAGE PATCH ONLY
 
-Based on signmaster360-website-main (4).zip and Signpilot-main - 2026-11-12T113058.608.zip.
+Based on the previously prepared public website features update.
 
-Replace ONLY index.html in the root of the public website repository. Do not upload this to the app repository.
+Upload BOTH files to your PUBLIC WEBSITE repository:
+  index.html -> repository root (replace existing)
+  assets/signmaster360-workshop-showcase.webp -> assets/ (new file)
 
-Changes: expanded public features section to 26 capability cards; distinguished planned voice feature and manual WhatsApp. Existing pricing, launch date, signup, support, CSS, JS, and other site files are unchanged.
+The workshop image appears in a responsive showcase section below the homepage hero.
+No app code, login functionality, payment integration or other website files are changed.
 
-After deployment: check /#more-features on desktop and mobile, verify navigation, signup, and support. Rollback: restore the original index.html from the website ZIP or GitHub history.
+IMPORTANT: The included index.html also retains the previously prepared 26-feature website update.
+If you have since edited your website index.html independently, provide the newer version before replacing it to avoid overwriting those edits.
