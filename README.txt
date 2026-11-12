@@ -1,0 +1,1 @@
+Replace only public website index.html with this file. Removes the standalone workshop showcase image below the overview, but keeps the same image inside the main slideshow. Based on Compact Sliding Tabs patch. Back up current index.html first.
