@@ -1,13 +1,9 @@
-SIGNMASTER 360 — WEBSITE-ONLY PRODUCTION INTERFACE PATCH
+SIGNMASTER 360 — AURORA STUDIO THEME PATCH
 
-This ZIP contains ONLY the modified index.html from the supplied website archive.
-No application files, backend, pricing, authentication, legal pages or assets are replaced.
+Website-only visual refresh based on the most recent Production Website patch.
+Replace ONLY index.html in the public website repository.
+Keep all existing assets and other files unchanged.
 
-Install:
-1. Back up the existing website index.html in your website repository.
-2. Replace ONLY index.html with the included index.html.
-3. Commit and deploy your public website.
-4. Hard refresh and open the Production Command Centre section.
-
-The Mark job as done button is a LOCAL WEBSITE DEMO only. It does not update jobs, stock, or notify real sales reps.
-Actual in-app sales rep notification delivery must be verified or implemented in the app separately.
+Changes: premium violet/cyan gradients, refined dashboard, metric cards, digital job card, workflow cards and interactive button styling.
+No application code, backend, stock calculations, notification logic or site assets modified.
+The job-ready notification remains a simulated website demonstration.
