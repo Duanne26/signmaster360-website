@@ -1,13 +1,11 @@
-SIGNMASTER 360 — WEBSITE IMAGE PATCH ONLY
+SIGNMASTER 360 — WEBSITE AUTOMATION FEATURE PATCH
 
-Based on the previously prepared public website features update.
+Website-only update. Does not modify the application or backend.
 
-Upload BOTH files to your PUBLIC WEBSITE repository:
-  index.html -> repository root (replace existing)
-  assets/signmaster360-workshop-showcase.webp -> assets/ (new file)
+Upload index.html to the public website repository root. Keep the included assets/signmaster360-workshop-showcase.webp in the assets folder.
 
-The workshop image appears in a responsive showcase section below the homepage hero.
-No app code, login functionality, payment integration or other website files are changed.
+Adds a prominent automatic stock deduction section, reservation/printing flow and other workflow automation highlights. Existing workshop image, navigation and other sections are preserved.
 
-IMPORTANT: The included index.html also retains the previously prepared 26-feature website update.
-If you have since edited your website index.html independently, provide the newer version before replacing it to avoid overwriting those edits.
+After deployment, visit signmaster360.co.za/#automation and hard-refresh.
+
+Do not deploy to app.signmaster360.co.za.
