@@ -1,10 +1,5 @@
-SignMaster 360 approved team workshop homepage image.
-Based on the most recent integrated workspace slide patch.
-
-Upload index.html to the root of your signmaster360-website GitHub Pages main branch.
-Upload signmaster360-hero-team-workshop.webp to assets/ (same folder as existing screenshots).
-Keep all other existing website files and assets unchanged.
-
-The approved illustration has been cropped to its photographic scene to avoid duplicating the actual homepage headings, links and navigation. The left-side live website text/buttons remain interactive.
-Other sections including the 16-category feature tour, pricing, and support form remain untouched.
-Not deployed or browser-tested.
+Remove the entire "Your team. Your jobs. Everything in view." section shown in the screenshot.
+Based on SignMaster360_Hero_Team_Workshop_Approved_Design_PATCH.zip.
+Replace ONLY index.html in GitHub Pages main branch. Keep all assets and other files.
+This leaves the separate homepage hero image and real-app screenshot tour intact.
+Not deployed.
