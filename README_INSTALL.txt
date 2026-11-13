@@ -1,13 +1,14 @@
-SIGNMASTER 360 — CLEAN NEON WORKSHOP REDESIGN
+SignMaster 360 — Vibrant Printshop & Team website patch
 
-Website-only patch built from signmaster360-website-main (9).zip.
+Based on the previous Clean Neon Workshop website patch.
+1. Back up current public GitHub Pages repository.
+2. Replace only index.html in root.
+3. Upload the TWO new .webp files to assets/.
+4. Keep all 13 existing assets/signmaster360-screen-01.webp through -13.webp files unchanged.
+5. Keep support, pricing, legal pages, app.py and other files.
+6. Wait for Pages deployment, then Ctrl+F5 and check desktop/mobile.
 
-Changes: compact launch countdown, larger actual software screenshot in hero (no tilted mockup), refined dark graphite/cyan design, improved contrast, logo scale, sliding feature tabs and glowing screenshot frame. Removes TWO redundant neon override blocks and replaces with ONE consolidated theme style.
-
-INSTALL: Backup current public website index.html. Upload only this index.html to the ROOT of the GitHub Pages main branch. Do NOT delete or replace your existing assets folder, app.py, support handler, policy pages or CNAME.
-
-REQUIRES EXISTING ASSET: assets/signmaster360-screen-01.webp (already in your uploaded repository).
-
-No changes to app.signmaster360.co.za. No backend changes. Not deployed automatically.
-
-TEST: On live site hard-refresh Ctrl+F5; inspect header, compact countdown, real screenshot hero, 16-tab tour, workflow, pricing, support form and mobile navigation.
+Includes user's supplied large-format printer image, enhanced for vibrant colour.
+Adds an illustrative team-at-PC scene plus the REAL All Jobs screenshot side by side.
+No actual software features changed; not deployed.
+Check real screenshots for customer information before publishing.
