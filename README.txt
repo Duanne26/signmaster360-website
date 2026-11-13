@@ -1,8 +1,18 @@
-SIGNMASTER 360 WEBSITE-ONLY UPDATE
+SIGNMASTER 360 — SLANTED CARDS HOMEPAGE PATCH
 
-Based on the latest Remove Duplicate Workshop Image patch.
-Back up your public website index.html, then replace only index.html with this version.
+Based on SignMaster360_All_26_Features_Step_By_Step_PATCH.zip.
 
-The existing 26-feature catalogue is retained and presented one feature at a time with Previous/Next buttons, step counter and progress bar. The top-level feature tabs, cinematic slides, stock information, production preview, pricing, FAQ, support and existing assets remain. The removed standalone workshop image stays removed, but the image in the slideshow remains.
+INSTALL:
+1. Back up your existing public WEBSITE index.html.
+2. Replace ONLY index.html in the website repository.
+3. Keep the assets folder and existing files unchanged.
+4. Deploy and hard-refresh (Ctrl+F5).
 
-This is a website marketing interface change, not an application/backend change. Verify in browser after deployment.
+CHANGES:
+- New teal/navy hero and four floating, tilted software interface cards.
+- Cards show illustrative dashboard, job cards, stock tracking and notifications.
+- Responsive layout and reduced-motion support.
+- Retains all 26 feature slides, existing slideshow, pricing, contact/support and other sections from the previous patch.
+- No application/backend changes; popup and automation features remain illustrative until verified.
+
+This is an original implementation inspired by the supplied reference, not copied commercial template assets.
