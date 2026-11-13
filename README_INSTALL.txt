@@ -1,26 +1,18 @@
-SIGNMASTER 360 PUBLIC WEBSITE — FIRST DESIGN PREVIEW
-==================================================
+SIGNMASTER 360 — 13 VIBRANT APPLICATION SCREENSHOTS
 
-Files:
-  index.html
-  assets/signmaster360-logo.png
+This update is for the PUBLIC MARKETING WEBSITE only, not the app.
 
-HOW TO PREVIEW:
-1. Extract the ZIP.
-2. Double-click index.html to open it in your desktop browser.
-3. Check the appearance on PC and mobile.
+1. Back up the latest public website repository.
+2. Upload index.html to its root and the 13 WebP files to the assets folder, preserving filenames.
+3. Deploy the website, hard-refresh your browser (Ctrl+Shift+R) and inspect all 16 tabs on desktop and mobile.
+4. Keep existing unrelated website files unchanged.
 
-IMPORTANT:
-- This is a separate public marketing website, not a replacement for your SignMaster 360 app.
-- Do NOT upload these files over the existing app's static/index.html.
-- Do NOT change DNS records or the existing Render service yet.
-- The login link currently uses the existing Render app URL.
-- The free trial button is an email enquiry until registration and PayFast checkout are verified.
-- Dashboard numbers shown on the homepage are illustrative design examples.
-- Legal pages (Privacy Policy and Terms) are NOT complete; do not launch publicly until ready.
-- Verify that support@signmaster360.co.za is a working receiving mailbox before publishing.
+Changes: replaced the tour images with the 13 new user-supplied screenshots, in their numbered order; gently enhanced vibrancy/contrast/sharpness without recreating or altering UI text; added premium blue/cyan/purple gradient frames, soft glow and rounded corners; kept the existing feature explanations and automation qualifications.
 
-RECOMMENDED DEPLOYMENT LATER:
-Create a separate static website service for the public homepage, then connect
-signmaster360.co.za after confirming the existing DNS configuration.
-The current web app stays separate and unchanged.
+The 16-tab tour uses the 13 screenshots for their corresponding categories. The final 3 supporting categories reuse a relevant screenshot.
+
+IMPORTANT: User screenshots show customer names, phone numbers and financial amounts. Replace/redact private information before making the marketing website public. This patch does not automatically redact any screenshots.
+
+This patch is based on the previous Complete Automation Sliding Tour patch. If your deployed index.html has newer changes, merge this section instead of overwriting those changes.
+
+No live website upload/deployment has been performed.
