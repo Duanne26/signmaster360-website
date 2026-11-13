@@ -1,9 +1,13 @@
-SIGNMASTER 360 NEON WORKSHOP — PUBLIC WEBSITE PATCH
+SIGNMASTER 360 — CLEAN NEON WORKSHOP REDESIGN
 
-Based on the previous 13-screenshot website patch.
+Website-only patch built from signmaster360-website-main (9).zip.
 
-Changes: premium graphite/cyan/blue styling, screenshot frames, horizontally scrollable feature tabs, new 7-stage production workflow, login URL points to app.signmaster360.co.za. Existing site sections and scripts retained.
+Changes: compact launch countdown, larger actual software screenshot in hero (no tilted mockup), refined dark graphite/cyan design, improved contrast, logo scale, sliding feature tabs and glowing screenshot frame. Removes TWO redundant neon override blocks and replaces with ONE consolidated theme style.
 
-INSTALL: Back up the current public website repository. Compare index.html with your latest if you made changes after the previous patch. Upload index.html to the public website root and the included WebP files to assets/. Keep all other existing files, including logo, backend/support and legal files. Deploy and test desktop/mobile, support form, pricing and login.
+INSTALL: Backup current public website index.html. Upload only this index.html to the ROOT of the GitHub Pages main branch. Do NOT delete or replace your existing assets folder, app.py, support handler, policy pages or CNAME.
 
-NOT DEPLOYED. No changes to the actual app. Screenshots may contain customer information: anonymise before publishing. Advanced automation features are described cautiously.
+REQUIRES EXISTING ASSET: assets/signmaster360-screen-01.webp (already in your uploaded repository).
+
+No changes to app.signmaster360.co.za. No backend changes. Not deployed automatically.
+
+TEST: On live site hard-refresh Ctrl+F5; inspect header, compact countdown, real screenshot hero, 16-tab tour, workflow, pricing, support form and mobile navigation.
