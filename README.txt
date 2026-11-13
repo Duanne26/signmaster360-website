@@ -1,18 +1,17 @@
-SIGNMASTER 360 — SLANTED CARDS HOMEPAGE PATCH
+SIGNMASTER 360 — COMPLETE AUTOMATION SLIDING TOUR
+Website-only patch based on the Production Board Real Screenshot patch.
 
-Based on SignMaster360_All_26_Features_Step_By_Step_PATCH.zip.
+INSTALLATION
+1. Back up your current public website files.
+2. Upload index.html to the PUBLIC WEBSITE repository root.
+3. Upload the files in assets/ to the website assets/ folder.
+4. Do not upload to app.signmaster360.co.za or replace your app backend.
+5. Test on desktop/mobile and check browser console.
 
-INSTALL:
-1. Back up your existing public WEBSITE index.html.
-2. Replace ONLY index.html in the website repository.
-3. Keep the assets folder and existing files unchanged.
-4. Deploy and hard-refresh (Ctrl+F5).
+Includes 16 interactive categories, 9 real screenshot types, step-by-step explanations, automation notes, and the existing 26-feature slider and homepage slideshow.
 
-CHANGES:
-- New teal/navy hero and four floating, tilted software interface cards.
-- Cards show illustrative dashboard, job cards, stock tracking and notifications.
-- Responsive layout and reduced-motion support.
-- Retains all 26 feature slides, existing slideshow, pricing, contact/support and other sections from the previous patch.
-- No application/backend changes; popup and automation features remain illustrative until verified.
+PRIVACY: The screenshots supplied contain real customer names, job values and financial data. Replace/redact this information before making the website public.
 
-This is an original implementation inspired by the supplied reference, not copied commercial template assets.
+LIMITATION: Some described automation (job-ready popups, stock reservation/deduction, always-listening voice) requires live testing. Website tour is informational only.
+
+If your public website index.html has changed since the previous patch, merge the updated section rather than blindly overwriting newer work.
