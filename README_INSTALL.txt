@@ -1,5 +1,10 @@
-Remove the entire "Your team. Your jobs. Everything in view." section shown in the screenshot.
-Based on SignMaster360_Hero_Team_Workshop_Approved_Design_PATCH.zip.
-Replace ONLY index.html in GitHub Pages main branch. Keep all assets and other files.
-This leaves the separate homepage hero image and real-app screenshot tour intact.
-Not deployed.
+SIGNMASTER 360 — TWO PICTURE WORKSHOP SLIDESHOW
+
+Replace ONLY index.html in the GitHub Pages website root.
+Uses TWO image assets already in the latest website ZIP (14):
+assets/signmaster360-vibrant-printer.webp (restored original)
+assets/signmaster360-workshop-combined-feature.webp (new approved photo)
+
+If either image is missing from the live assets folder, upload it from your existing (14) website ZIP.
+Auto-slide every 6.5 seconds; previous/next buttons; pauses on hover/focus and reduced-motion preference.
+All other sections preserved. This has not been deployed or browser-tested live.
