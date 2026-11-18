@@ -352,6 +352,59 @@ section[id]{scroll-margin-top:95px}
 .sm360-billing-caption{color:#76f1cf;font-size:.88rem;font-weight:700;margin:3px 0 18px}
 @media(max-width:420px){.sm360-billing-choice{font-size:.9rem;padding:11px 4px}.sm360-billing-save{display:block;margin:2px 0 0}}
 </style>
+<style id="sm360-side-by-side-tour-patch">
+/* SignMaster 360 software tour: scoped side-by-side layout only */
+@media (min-width: 901px) {
+  #real-app-tour .wrap {max-width: 1560px !important; width: calc(100% - 64px) !important;}
+  #real-app-tour .sm-real-grid {width:100% !important; max-width:none !important; display:block !important;}
+  #real-app-tour .sm360-integrated-slide {
+    display:grid !important;
+    grid-template-columns:minmax(300px, .78fr) minmax(0, 1.55fr) !important;
+    column-gap:22px !important;row-gap:14px !important;
+    align-items:stretch !important;max-width:none !important;width:100% !important;
+  }
+  #real-app-tour .sm360-integrated-slide > .sm-tour-card {
+    grid-column:1 !important;grid-row:1 !important;
+    display:flex !important;flex-direction:column !important;gap:12px !important;
+    width:100% !important;min-width:0 !important;height:auto !important;
+    padding:clamp(20px,2vw,32px) !important;
+    position:relative !important;order:unset !important;
+  }
+  #real-app-tour .sm360-integrated-slide > .sm-tour-card > * {
+    grid-column:auto !important;grid-row:auto !important;position:static !important;
+  }
+  #real-app-tour .sm360-integrated-slide .sm-tour-details {
+    display:block !important;margin:8px 0 0 !important;padding:0 !important;
+    background:transparent !important;border:0 !important;min-width:0 !important;
+  }
+  #real-app-tour .sm360-integrated-slide .sm-tour-kicker {align-self:auto !important;}
+  #real-app-tour .sm360-integrated-slide > .sm-real-photo {
+    grid-column:2 !important;grid-row:1 !important;align-self:start !important;
+    width:100% !important;max-width:none !important;min-width:0 !important;
+    margin:0 !important;order:unset !important;
+  }
+  #real-app-tour .sm360-integrated-slide > .sm-real-photo img {
+    display:block !important;width:100% !important;height:auto !important;
+    max-height:none !important;object-fit:contain !important;
+  }
+  #real-app-tour .sm360-integrated-slide > .sm-tour-track {
+    grid-column:1 / -1 !important;grid-row:2 !important;
+    width:100% !important;margin:0 !important;order:unset !important;
+  }
+  #real-app-tour .sm360-integrated-slide > .sm-tour-nav {
+    grid-column:1 / -1 !important;grid-row:3 !important;
+    width:100% !important;order:unset !important;
+  }
+}
+@media (max-width:900px) {
+  #real-app-tour .sm360-integrated-slide {display:flex !important;flex-direction:column !important;gap:12px !important;}
+  #real-app-tour .sm360-integrated-slide > .sm-tour-card {order:0 !important;display:block !important;width:100% !important;}
+  #real-app-tour .sm360-integrated-slide .sm-tour-details {display:block !important;margin-top:14px !important;}
+  #real-app-tour .sm360-integrated-slide > .sm-real-photo {order:1 !important;width:100% !important;}
+  #real-app-tour .sm360-integrated-slide > .sm-tour-track {order:2 !important;}
+  #real-app-tour .sm360-integrated-slide > .sm-tour-nav {order:3 !important;}
+}
+</style>
 </head>
 <body>
 <header class="nav"><div class="wrap nav-inner"><a class="brand" href="#home"><img alt="SignMaster 360 logo" src="assets/signmaster360-logo.png"/><span><strong>SignMaster 360</strong><small>Business Management</small></span></a><nav class="nav-links" id="nav-links"><a href="#features">Features</a><a href="#how-it-works">How it works</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a href="#more-features">More features</a><a href="#contact-support">Contact Support</a></nav><div class="actions"><a class="btn btn-outline" href="https://app.signmaster360.co.za/">Log in ↗</a><a class="btn btn-primary" href="#pricing">7-Day Free Trial</a><button aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation" class="menu" id="menu">☰</button></div></div></header>
