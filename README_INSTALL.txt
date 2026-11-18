@@ -1,1 +1,1 @@
-Replace only index.html in the SignMaster 360 GitHub Pages website. Adds monthly/annual pricing selector. Keeps the enquiry button and launch notice until registration and PayFast checkout are verified. No other files changed.
+SignMaster 360 - Slide 2 wording only. Replace only index.html in the website repository. Slide 1 wording, images, pricing, and other features remain unchanged.

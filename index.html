@@ -460,10 +460,17 @@ let startX=null;const stage=root.querySelector('#sm-flow-stage');stage.addEventL
  const previous=section.querySelector('.sm360-banner-prev');
  const next=section.querySelector('.sm360-banner-next');
  const status=section.querySelector('.sm360-banner-status');
+ const eyebrow=section.querySelector('.sm360-industry-content .sm360-photo-eyebrow');
+ const heading=section.querySelector('.sm360-industry-content h2');
+ const description=section.querySelector('.sm360-industry-content p');
+ const slideCopy=[
+  {eyebrow:'BUILT FOR REAL SIGN SHOPS',heading:'Made for the people who <em>print, cut, wrap and create.</em>',description:'Manage the business behind every colourful print — from customer enquiry to finished job.'},
+  {eyebrow:'BUILT FOR DEADLINES. DESIGNED FOR PRODUCTION.',heading:'Every order. <em>On time. Every time.</em>',description:'Keep your signage and printing jobs organised, track production progress, and help your team meet every deadline with SignMaster 360.'}
+ ];
  if(frames.length!==2||!previous||!next||!status)return;
  let current=0,interval=null;
  const reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
- function show(i){current=(i+frames.length)%frames.length;frames.forEach((frame,n)=>frame.classList.toggle('is-current',n===current));status.textContent=(current+1)+' / '+frames.length;}
+ function show(i){current=(i+frames.length)%frames.length;frames.forEach((frame,n)=>frame.classList.toggle('is-current',n===current));status.textContent=(current+1)+' / '+frames.length;const copy=slideCopy[current];if(eyebrow)eyebrow.textContent=copy.eyebrow;if(heading)heading.innerHTML=copy.heading;if(description)description.textContent=copy.description;}
  function stop(){if(interval){clearInterval(interval);interval=null;}}
  function start(){stop();if(!reduce&&!document.hidden)interval=setInterval(()=>show(current+1),6500);}
  previous.addEventListener('click',()=>{show(current-1);start();});
